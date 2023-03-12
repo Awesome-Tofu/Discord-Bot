@@ -1,0 +1,41 @@
+{
+  "name": "Secktor-Md",
+  "description": "A Whatsapp md bot built in NodeJs to make experience better",
+  "logo": "https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "SecktorBot", "Secktor","SecktorMD","theme bot","multi device"],
+  "success_url": "/",
+  "stack": "container",
+"env": {
+  "DISCORD_TOKEN": {
+  "description": "Name of Bot Owner",
+      "value": "MTA4NDUzMjg2MDE4ODM3MzE2Mg.GeuMuw.G1m9nafN9uesM13LACxJfSTDiiYaUydcPoZQe4"
+  },
+  "DISCORD_ID": {
+    "description": "Alive message for bot",
+    "value":"1084532860188373162",
+     "required" :false
+    },
+    "WEBHOOK_TOKEN": {
+  "description": "Name of Bot Owner",
+      "value": "gINQgX0STRhQHPqAPK5xHMInS4EigArRviTleQHsIE-WEtSWDXmvYM0SplEt_0OO-ifg"
+  },
+    "WEBHOOK_ID": {
+  "description": "Name of Bot Owner",
+      "value": "1084553855414575157"
+  },
+    "GIPHY_TOKEN": {
+  "description": "Name of Bot Owner",
+      "value": "mOhx2KgQGC70wyRjwogLYP6ezAZjw1sm"
+  },
+    "MONGO_TOKEN": {
+  "description": "Name of Bot Owner",
+      "value": "mongodb+srv://tofu:tofu@cluster0.jhwcgi8.mongodb.net/?retryWrites=true&w=majority"
+  }
+},
+  "formation": {
+      "worker": {
+          "quantity": 1,
+          "size": "basic"
+      }
+  }
+}
